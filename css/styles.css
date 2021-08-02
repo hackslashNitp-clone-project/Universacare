@@ -1,8 +1,103 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.notBar{
+ position: -webkit-sticky;
+ position: sticky;
+ top: 0;
+ background-color: white;
+ font-family: 'Montserrat', sans-serif;
+ font-weight: 600;
+ padding: 20px;
+ text-align: center;
+ color: mediumblue;
+ box-shadow:0px 3px 3px gainsboro;
+}
+.logo{
+  display:flex;
+  padding: 10px;
+  padding-left: 20px;
+}
+.logo>img{
+  width: 200px;
+  height: 40px;
+}
+.nav-list{
+  display: flex;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+}
+.midnav{
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: center;
+}
+.midnav>li>a{
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+}
+.midnav>li>a:hover{
+  color:khaki;
+}
+.cont{
+  display: flex;
+  flex-wrap: wrap-reverse;
+  background-image: linear-gradient(to top right, #FFF1E1,white);
+}
+.wcont{
+  margin-left:50px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  width: 525px;
+  padding-top: 70px;
+  padding-bottom: 50px;
+}
+.nonbold{
+  padding-top: 10px;
+  font-family: 'Montserrat', sans-serif; 
+}
+.icont>img{
+  height:499px;
+  width:688px;
+}
+.infosymbol{
+  border: 2px solid mediumblue;
+  border-radius: 50%;
+  padding: 0.5px;
+  margin-right: 9px;
+  width:1px;
+}
+.requestbtn{
+ background-color: darkblue;
+ height: 68px;
+ width: 342px;
+}
+.requestbtn>a{
+  text-decoration: none;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+  letter-spacing: 3px;
+}
+.location{
+  background-color: rgba(255,192,61,1);
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
 .footer-heading {
   /* footer title */
   font-family: "Montserrat", sans-serif;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 600;
   font-size: 1.35rem;
   padding-bottom: 0;
   margin-bottom: 0;
@@ -18,7 +113,7 @@
 .footer-form label {
   font-style: normal;
   font-family: "Montserrat", sans-serif;
-  font-weight: 200;
+  font-weight: 400;
   font-size: 20px;
   line-height: 172.4%;
   /* or 34px */
@@ -106,13 +201,13 @@
 .chap_img {
   position: absolute;
   top: 67px;
-  left: 246px;
+  left: 110px;
   padding: 0;
   margin: 0;
 }
 .chap_text {
   position: absolute;
-  left: 499px;
+  left: 390px;
   top: 80.13px;
   color: #2b2d42;
   font-size: 30px;
@@ -123,24 +218,24 @@
 .firsttline4 {
   position: absolute;
   top: 134.13px;
-  left: 499px;
+  left: 390px;
   font-size: 18px;
   word-spacing: -0.7%;
   line-height: 35px;
   color: #2b2d42;
   font-family: "Montserrat", sans-serif;
-  font-weight: 100;
+  font-weight: 400;
 }
 .secondline4 {
   position: absolute;
   color: #2b2d42;
-  left: 499px;
+  left: 390px;
   top: 134.13px;
   font-size: 18px;
   line-height: 75px;
   word-spacing: -0.7%;
   font-family: "Montserrat", sans-serif;
-  font-weight: 100;
+  font-weight: 400;
 }
 .image6 {
   margin: 0;
@@ -167,7 +262,7 @@
 }
 .heart {
   position: absolute;
-  left: 960px;
+  left: 850px;
   top: 27px;
 }
 .button6 {
