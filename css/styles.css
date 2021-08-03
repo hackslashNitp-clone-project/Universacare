@@ -189,6 +189,59 @@
   display: inline;
 }
 
+.csec{
+  height: 450px;
+  background-color: rgba(243, 245, 249, 1);
+}
+.ctitle{
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 30px;
+  padding-top: 45px;
+  padding-bottom: 45px;
+}
+#bestcaregiver{
+  color: rgba(255, 132, 0, 1);
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+.cCont{
+  display: flex;
+  flex-wrap: wrap;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  justify-content: center;
+}
+.cCont1{
+  height: 220px;
+  width: 220px;
+  text-align: center;
+  margin-right: 50px;
+}
+.cCont2{
+  height: 220px;
+  width: 220px;
+  margin-right: 50px;
+}
+.cCont3{
+  height: 220px;
+  width: 220px;
+  margin-right: 50px;
+}
+.cCont4{
+  height: 220px;
+  width: 220px;
+}
+.ft_title{
+  font-size:18px;
+  font-weight: 700;
+}
+.ft_dsc{
+  font-size: 14px;
+  font-weight: 400;
+}
+
 .main4 {
   display: flex;
   width: 100%;
